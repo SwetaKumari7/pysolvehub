@@ -22,9 +22,11 @@ body:
       description: Include a source link if suggesting a platform problem.
     validations:
       required: true
-  - type: textarea
+    - type: textarea
     id: contribution
     attributes:
       label: Would you like to work on it?
+      description: Let us know if you would like to submit a pull request for this idea.
+      placeholder: "Yes, I would like to work on this."
     validations:
       required: false
