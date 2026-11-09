@@ -21,3 +21,4 @@ Closes #
 - [ ] I included or updated tests where appropriate.
 - [ ] I ran `python -m pytest` and all tests pass.
 - [ ] I checked that I did not include secrets or unrelated files.
+- [ ] I included time and space complexity for new solutions.
