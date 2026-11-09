@@ -1,0 +1,30 @@
+name: Suggest a solution or improvement
+description: Suggest a new problem, topic, explanation, or project improvement.
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: What would you like to add?
+      options:
+        - New problem solution
+        - New topic
+        - Better explanation
+        - More tests
+        - Project improvement
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Describe your idea
+      description: Include a source link if suggesting a platform problem.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Would you like to work on it?
+    validations:
+      required: false

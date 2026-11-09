@@ -1,0 +1,28 @@
+name: Bug report
+description: Report an incorrect solution, broken test, or documentation problem.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for helping improve PySolveHub."
+  - type: input
+    id: file
+    attributes:
+      label: Affected file or page
+      placeholder: "solutions/arrays/example.py"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Explain what you expected and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps or example input
+    validations:
+      required: false
