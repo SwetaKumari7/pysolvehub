@@ -22,13 +22,22 @@ PySolveHub is a beginner-friendly, community-driven collection of Python problem
 ### Run locally
 
 ```bash
+# Create a virtual environment
 python -m venv .venv
-# Windows:
-.venv\Scripts\activate
+
+# Windows PowerShell:
+.\.venv\Scripts\Activate.ps1
+
+# Windows Command Prompt:
+.venv\Scripts\activate.bat
+
 # macOS/Linux:
 source .venv/bin/activate
 
-pip install -r requirements-dev.txt
+# Install dependencies
+python -m pip install -r requirements-dev.txt
+
+# Run tests
 python -m pytest
 ```
 
